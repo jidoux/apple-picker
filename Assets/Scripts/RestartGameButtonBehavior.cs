@@ -25,7 +25,7 @@ public class RestartGameButtonBehavior : MonoBehaviour {
     }
 
     private void RestartGame() {
-        SceneManager.LoadScene("_GameScreen");
+        SceneManager.LoadScene("_GameScreen_");
     }
     void Start() {
 
